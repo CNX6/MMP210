@@ -16,12 +16,12 @@ function setup() {
     ellipse(24, 50, 100); // left eye
     ellipse(15, 50 + 100, 100, 50); // mouth
 
-    fill(white);
+    fill("white");
     ellipse(150, 100, 200, 150);
     triangle(200, 200, 150, 175, 175, 150);
 
     fill("black");
     textSize(28);
-    textFont(monospace);
+    textFont(Courier New);
     text("Nice work!", 65, 110);
 }
