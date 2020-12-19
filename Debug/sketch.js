@@ -13,8 +13,8 @@ function setup() {
 
     fill(0, 0, 0);
     ellipse (450, 250, 100); // right eye
-    ellipse(x, y, 100); // left eye
-    ellipse(x, y + 100, 100, 50); // mouth
+    ellipse(24, 50, 100); // left eye
+    ellipse(15, 50 + 100, 100, 50); // mouth
 
     fill(white);
     ellipse(150, 100, 200, 150);
