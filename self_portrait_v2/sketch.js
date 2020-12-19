@@ -3,6 +3,8 @@
    by Carl Charleston
 */
 
+console.log('hello my fello audience, my name is Carl Charleston');
+
 // global scope
 var x = 260; // character origin
 var y = 100;
@@ -31,6 +33,7 @@ function draw() {
 	fill(0,0,0);
 	noStroke();
 	circle(x, y, 260);
+	console.log(x);
     
 	//face
 	fill(205, 123, 26); 
