@@ -12,8 +12,8 @@ function setup() {
     ellipse(350, 320, faceSize); // face
 
     fill(0, 0, 0);
-    ellipse (450, 250, 100, 50); // right eye
-    ellipse(260, 250, 100); // left eye
+    ellipse (430, 250, 100, 50); // right eye
+    ellipse(280, 250, 100); // left eye
     ellipse(358, 330, 100, 50); // mouth
 
     fill("white");
