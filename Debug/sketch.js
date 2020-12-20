@@ -12,9 +12,9 @@ function setup() {
     ellipse(350, 320, faceSize); // face
 
     fill(0, 0, 0);
-    ellipse (450, 250, 100); // right eye
-    ellipse(24, 50, 100); // left eye
-    ellipse(15, 50 + 100, 100, 50); // mouth
+    ellipse (450, 250, 100, 50); // right eye
+    ellipse(260, 250, 100); // left eye
+    ellipse(358, 330, 100, 50); // mouth
 
     fill("white");
     ellipse(150, 100, 200, 150);
@@ -22,6 +22,6 @@ function setup() {
 
     fill("black");
     textSize(28);
-    textFont(Courier New);
+    textFont("monospace");
     text("Nice work!", 65, 110);
 }
