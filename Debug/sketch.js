@@ -9,7 +9,7 @@ function setup() {
     background(50);
     noStroke();
     fill("lightblue");
-    ellipse(350, 320, faceSize); // face
+    ellipse(350, 300, 300, 300); // face
 
     fill(0, 0, 0);
     ellipse (430, 250, 100, 50); // right eye
